@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Init.unity
+    guid: 135c9d13855d99e42b6f5f9fa711070a
+  - enabled: 1
+    path: Assets/Levels/Catch all the midges/Catch all the midges.unity
+    guid: bfacda7c9c887004b8eb07613cdced1f
+  - enabled: 1
+    path: Assets/Levels/Complete the house/Complete the house.unity
+    guid: b585fac664d58ae49b964e28d6e7d3bb
+  - enabled: 1
+    path: Assets/Levels/Continue the alphabet/Continue the alphabet.unity
+    guid: 15f6a778b9469174b86ec597c4eb9282
+  - enabled: 1
+    path: Assets/Levels/Find a glowing figure in the room/Find a glowing figure in
+      the room.unity
+    guid: 7c5b9adf4e9f6b04f84743f87fc8cb7d
+  - enabled: 1
+    path: Assets/Levels/Hit the target/Hit the target.unity
+    guid: 1b2dab2e031bc7843bfee43bdfcd00f2
+  - enabled: 1
+    path: Assets/Levels/How many cockroaches we can feed/How many cockroaches we
+      can feed.unity
+    guid: 66a2f8dec7754b44699f1c5e2a3dcc8e
+  - enabled: 1
+    path: Assets/Levels/Leave the cat in one boot/Leave the cat in one boot.unity
+    guid: a0227bc2ce7797a44b0d18a236219b15
+  - enabled: 1
+    path: Assets/Levels/Put the items in the chest/Put the items in the chest.unity
+    guid: dd9f8108a229d984e89283833c9c2f13
+  - enabled: 1
+    path: Assets/Levels/This ship should be in a bottle/This ship should be in a
+      bottle.unity
+    guid: f113dc69d6fd6ef48be55f030b957b2a
+  - enabled: 1
+    path: Assets/Levels/Win with zeros/Win with zeros.unity
+    guid: 01160139efddc8042bf3b0d550a61faa
+  m_configObjects: {}
