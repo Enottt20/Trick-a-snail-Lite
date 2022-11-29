@@ -1355,6 +1355,7 @@ GameObject:
   - component: {fileID: 807826648757743344}
   - component: {fileID: 5837739313345615792}
   - component: {fileID: 4527173152515592175}
+  - component: {fileID: 5789727945476429085}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -1463,6 +1464,42 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5789727945476429085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060732923752627248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productId: i2
+  buttonType: 0
+  consumePurchase: 1
+  onPurchaseComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2621977986412100958}
+        m_TargetAssemblyTypeName: UI.Popup.ShopPopup, Assembly-CSharp
+        m_MethodName: GetBrains
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 20
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPurchaseFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  titleText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  priceText: {fileID: 0}
 --- !u!1 &2144561279246285769
 GameObject:
   m_ObjectHideFlags: 0
@@ -3502,6 +3539,7 @@ GameObject:
   - component: {fileID: 6662722703089587791}
   - component: {fileID: 5790020001278561314}
   - component: {fileID: 1633611403491965386}
+  - component: {fileID: 8326583645755488756}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3610,6 +3648,42 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8326583645755488756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4218826304585462296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productId: i3
+  buttonType: 0
+  consumePurchase: 1
+  onPurchaseComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2621977986412100958}
+        m_TargetAssemblyTypeName: UI.Popup.ShopPopup, Assembly-CSharp
+        m_MethodName: RemoveAds
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPurchaseFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  titleText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  priceText: {fileID: 0}
 --- !u!1 &4619366245050970066
 GameObject:
   m_ObjectHideFlags: 0
@@ -6115,6 +6189,7 @@ GameObject:
   - component: {fileID: 2757678717048994484}
   - component: {fileID: 4576362599715831847}
   - component: {fileID: 8437337270841466387}
+  - component: {fileID: 1254338390488377062}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -6223,6 +6298,42 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1254338390488377062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130116846832928219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productId: i1
+  buttonType: 0
+  consumePurchase: 1
+  onPurchaseComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2621977986412100958}
+        m_TargetAssemblyTypeName: UI.Popup.ShopPopup, Assembly-CSharp
+        m_MethodName: GetBrains
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPurchaseFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  titleText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  priceText: {fileID: 0}
 --- !u!1 &7218264946171066155
 GameObject:
   m_ObjectHideFlags: 0
@@ -6922,6 +7033,7 @@ GameObject:
   - component: {fileID: 1421910170306435571}
   - component: {fileID: 2999303279158806938}
   - component: {fileID: 7266960428640305087}
+  - component: {fileID: 3774751737393371544}
   m_Layer: 5
   m_Name: Special
   m_TagString: Untagged
@@ -7030,6 +7142,54 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3774751737393371544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598400176990508562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productId: i4
+  buttonType: 0
+  consumePurchase: 1
+  onPurchaseComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2621977986412100958}
+        m_TargetAssemblyTypeName: UI.Popup.ShopPopup, Assembly-CSharp
+        m_MethodName: GetBrains
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 20
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2621977986412100958}
+        m_TargetAssemblyTypeName: UI.Popup.ShopPopup, Assembly-CSharp
+        m_MethodName: RemoveAds
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPurchaseFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  titleText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  priceText: {fileID: 0}
 --- !u!1 &8752981792956205173
 GameObject:
   m_ObjectHideFlags: 0
@@ -7290,7 +7450,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3360511700402995134}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.75294125
+  m_Size: 0.7529412
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7439,6 +7599,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ade636938827c745b5ce4febfd28152, type: 3}
+--- !u!224 &7882829230467486906 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
+    type: 3}
+  m_PrefabInstance: {fileID: 1319596773813119282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &9215697574702064223 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7905112949703461741, guid: 4ade636938827c745b5ce4febfd28152,
@@ -7451,12 +7617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a16b456f89ab640b87f9b5cddab1e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &7882829230467486906 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
-    type: 3}
-  m_PrefabInstance: {fileID: 1319596773813119282}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1393651432816532591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7753,12 +7913,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ade636938827c745b5ce4febfd28152, type: 3}
---- !u!224 &7293580339177817381 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
-    type: 3}
-  m_PrefabInstance: {fileID: 1877237439551174829}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8627159491976672192 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7905112949703461741, guid: 4ade636938827c745b5ce4febfd28152,
@@ -7771,6 +7925,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a16b456f89ab640b87f9b5cddab1e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &7293580339177817381 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
+    type: 3}
+  m_PrefabInstance: {fileID: 1877237439551174829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4818642296781050510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7910,6 +8070,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ade636938827c745b5ce4febfd28152, type: 3}
+--- !u!224 &4461387790092594950 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
+    type: 3}
+  m_PrefabInstance: {fileID: 4818642296781050510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3417066614500415971 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7905112949703461741, guid: 4ade636938827c745b5ce4febfd28152,
@@ -7922,12 +8088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a16b456f89ab640b87f9b5cddab1e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &4461387790092594950 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
-    type: 3}
-  m_PrefabInstance: {fileID: 4818642296781050510}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5398549082514613696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8067,6 +8227,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ade636938827c745b5ce4febfd28152, type: 3}
+--- !u!224 &3881600282043226184 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
+    type: 3}
+  m_PrefabInstance: {fileID: 5398549082514613696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2837238703642980013 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7905112949703461741, guid: 4ade636938827c745b5ce4febfd28152,
@@ -8079,12 +8245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a16b456f89ab640b87f9b5cddab1e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &3881600282043226184 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
-    type: 3}
-  m_PrefabInstance: {fileID: 5398549082514613696}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5625362275469322432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8543,6 +8703,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ade636938827c745b5ce4febfd28152, type: 3}
+--- !u!224 &3373181458964571550 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
+    type: 3}
+  m_PrefabInstance: {fileID: 5907240054013630486}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4345447935377101691 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7905112949703461741, guid: 4ade636938827c745b5ce4febfd28152,
@@ -8555,12 +8721,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a16b456f89ab640b87f9b5cddab1e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &3373181458964571550 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
-    type: 3}
-  m_PrefabInstance: {fileID: 5907240054013630486}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6859418406570990668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8857,12 +9017,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ade636938827c745b5ce4febfd28152, type: 3}
---- !u!224 &2218854780849659831 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
-    type: 3}
-  m_PrefabInstance: {fileID: 7061571130176168511}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &885845591750846802 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7905112949703461741, guid: 4ade636938827c745b5ce4febfd28152,
@@ -8875,3 +9029,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a16b456f89ab640b87f9b5cddab1e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &2218854780849659831 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 9166313077408628104, guid: 4ade636938827c745b5ce4febfd28152,
+    type: 3}
+  m_PrefabInstance: {fileID: 7061571130176168511}
+  m_PrefabAsset: {fileID: 0}

@@ -46,8 +46,8 @@ namespace Ads.Advertising_networks
 
             if (IsRewardVideoAvailable()) 
                 rewarded.Show();
-            else
-                LoadRewardVideo();
+            
+            LoadRewardVideo();
         }
 
         public void LoadInterstitial()
@@ -70,8 +70,8 @@ namespace Ads.Advertising_networks
             
             if (IsInterstitialAvailable()) 
                 interstitial.Show();
-            else
-                LoadInterstitial();
+            
+            LoadInterstitial();
         }
     }
 }

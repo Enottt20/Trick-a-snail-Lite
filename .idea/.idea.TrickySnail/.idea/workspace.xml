@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70183805-b5c7-4c6c-bff7-b412cb9d519b" name="Changes" comment="" />
+    <list default="true" id="70183805-b5c7-4c6c-bff7-b412cb9d519b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrickySnail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrickySnail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MenuCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MenuCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/IAPProductCatalog.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/IAPProductCatalog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ads/Advertising networks/AdMob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ads/Advertising networks/AdMob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popup/VictoryPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Popup/VictoryPopup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +32,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GjAmIsCx6ErQx4LsEUXYDiNrp6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -103,15 +112,28 @@
       <workItem from="1668945802259" duration="5770000" />
       <workItem from="1669562668661" duration="17206000" />
       <workItem from="1669640223758" duration="725000" />
-      <workItem from="1669640998492" duration="9908000" />
+      <workItem from="1669640998492" duration="10590000" />
+      <workItem from="1669738025100" duration="1844000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

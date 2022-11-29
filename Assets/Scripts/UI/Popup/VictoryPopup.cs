@@ -1,8 +1,6 @@
-﻿using Managers;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using Zenject;
 
 namespace UI.Popup
 {
@@ -18,40 +16,36 @@ namespace UI.Popup
             base.Init();
             
             UpdateUi();
-            
-            continueBtn.onClick.AddListener(() =>
+
+            continueBtn.onClick.AddListener(Continue);
+        }
+        private void Continue()
+        {
+            OnClickSound();
+
+            if (SceneManager.GetActiveScene().buildIndex > Datas.Datas.MaxLevel)
             {
-                OnClickSound();
+                Datas.Datas.MaxLevel++;
+            }
 
-                if (SceneManager.GetActiveScene().buildIndex > Datas.Datas.MaxLevel)
-                {
-                    Datas.Datas.MaxLevel++;
-                }
-
-                //если есть следующая сцена то открываем ее если нет то открываем первую
-                if (SceneManager.sceneCountInBuildSettings-1 > SceneManager.GetActiveScene().buildIndex)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                }
-                else
-                {
-                    SceneManager.LoadScene(1);
-                }
-            });
+            //если есть следующая сцена то открываем ее если нет то открываем первую
+            if (SceneManager.sceneCountInBuildSettings-1 > SceneManager.GetActiveScene().buildIndex)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else
+            {
+                SceneManager.LoadScene(1);
+            }
         }
 
-        private void UpdateUi()
-        {
-            descriptionTxt.text = Description();
-        }
+        private void UpdateUi() => descriptionTxt.text = Description();
 
-        private string Description()
-        {
-            return "Level " + SceneManager.GetActiveScene().buildIndex + " completed";
-        }
-        
+        private string Description() => "Level " + SceneManager.GetActiveScene().buildIndex + " completed";
+
         public override void Show()
         {
+            ads.ShowInterstitial();
             mainCanvas.sortingLayerName = "upper";
             audio.PlaySound(showSound);
             gameObject.SetActive(true);
